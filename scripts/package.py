@@ -5,7 +5,7 @@ import zipfile
 root = Path(__file__).resolve().parents[1]
 archive = root.parent / 'image-api.zip'
 with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as z:
-    for relative in ['README.md', 'requirements.txt', '.codex-plugin/plugin.json']:
+    for relative in ['README.md', 'README.zh-CN.md', 'requirements.txt', '.codex-plugin/plugin.json']:
         z.write(root / relative, 'image-api/' + relative)
     for folder in ['scripts', 'skills', 'tests']:
         for p in (root / folder).rglob('*'):
