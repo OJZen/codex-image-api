@@ -1,0 +1,19 @@
+{
+  "name": "image-api",
+  "version": "0.1.3",
+  "description": "Generate and edit images through your configured OpenAI-compatible Image API.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Image API",
+    "shortDescription": "Generate and edit images with your own API.",
+    "longDescription": "Local MCP image generation, editing, masks and previews with credentials resolved inside the service.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": ["Write"],
+    "defaultPrompt": "Generate an image using my configured image API."
+  },
+  "mcpServers": "./.mcp.json"
+}
