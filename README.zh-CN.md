@@ -6,7 +6,11 @@
 
 ## 安装
 
-需要 Codex、Python 3.11+ 和 Images API 密钥。在仓库根目录运行以下命令。
+需要 Codex、Python 3.11+ 和 Images API 密钥。把下面这句话发给 Codex 即可请它安装。
+
+> 请按照 README 帮我安装 <https://github.com/OJZen/codex-image-api>。
+
+如需手动安装，在仓库根目录运行以下命令。
 
 ```shell
 python scripts/install.py --register

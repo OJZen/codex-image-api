@@ -6,7 +6,11 @@ Generate and edit images in Codex with GPT Image 2.6 through your own OpenAI-com
 
 ## Install
 
-Requires Codex, Python 3.11+, and an Images API key. Run the following from the repository root.
+Requires Codex, Python 3.11+, and an Images API key. Paste this into a Codex chat.
+
+> Please install <https://github.com/OJZen/codex-image-api> using the instructions in its README.
+
+To install manually, run the following from the repository root.
 
 ```shell
 python scripts/install.py --register
